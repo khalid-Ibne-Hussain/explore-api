@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch js</title>
+    <style>
+        .post {
+            background: lightblue;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="loadData2()">load data2</button>
+    <button onclick="loadData()">loadData</button>
+    <button onclick="loadUsers2()">loadUser2</button>
+    <button onclick="loadUsers3()">loadUser3</button>
+
+
+    <div class="user-container">
+        <ul id="user-list">
+
+        </ul>
+    </div>
+    <div>
+        <header>
+            <h1>Display All Posts</h1>
+            <button onclick="loadPosts()">Load Post</button>
+        </header>
+        <div id="post-container">
+
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/fetch.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
