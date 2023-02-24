@@ -4,8 +4,11 @@ const user = {
     job: 'actor',
 }
 // JavaScript Object Notation (JSON)
-console.log(user);
+// console.log(user);
 const userJSON = JSON.stringify(user);
-console.log("JSON.stringify: ", userJSON);
+// console.log("JSON.stringify: ", userJSON);
 const userOBJ = JSON.parse(userJSON);
-console.log("JSON.parse: ", userOBJ);
+// console.log("JSON.parse: ", userOBJ);
+
+const stuInfo = JSON.stringify({ name: "James", roll: 3 });
+console.log(stuInfo.name); 
